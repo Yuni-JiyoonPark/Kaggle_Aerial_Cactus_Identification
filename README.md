@@ -33,9 +33,10 @@ Data:
 
 
 
-
+---------------------------------------------------------------------------------------------------
 
 ###에러 ㅓㅓㅓㅓㅓㅓ
+
 error                                     Traceback (most recent call last)
 Cell In[70], line 7
       4 epoch_loss = 0 # 에폭별 손실값 초기화
@@ -65,3 +66,7 @@ File c:\Users\Admin\miniconda3\envs\myGPU\lib\site-packages\torch\utils\data\dat
      25 if self.transform is not None:
 
 error: OpenCV(4.11.0) D:\a\opencv-python\opencv-python\opencv\modules\imgproc\src\color.cpp:199: error: (-215:Assertion failed) !_src.empty() in function 'cv::cvtColor'
+
+
+
+---------->>>>> google colab에서 run하니까 됨!
